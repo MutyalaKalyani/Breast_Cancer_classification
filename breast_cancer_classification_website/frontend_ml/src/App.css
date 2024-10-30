@@ -1,0 +1,8 @@
+.app{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.uab.edu/news/media/k2/items/cache/5ba340a816c7a2f7d5d12ca399857225_XL.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
