@@ -36,7 +36,7 @@ const HomePage = () => {
     }, 2000);*/
 
      const result = await axios.post(
-      "http://localhost:8000/predict",
+      "https://breast-cancer-classification-z7h1.onrender.com/predict",
       formData,
     );
     setLoading(false);
