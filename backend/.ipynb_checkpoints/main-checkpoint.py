@@ -29,9 +29,6 @@ async def predict(
 
     confidence=np.max(predictions[0])
     return {
-        'class':predicted_class
+        'class':predicted_class,
+        'confidence':confidence
     }
-
-
-if __name__=="__main__":
-    uvicorn.run(app,host='localhost' , port=8000)

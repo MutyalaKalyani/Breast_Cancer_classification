@@ -1,8 +1,8 @@
 tensorflow== 2.17.1
-fastapi
-uvicorn
+fastapi== 0.115.2
+uvicorn== 0.32.0
 python-multipart
 pillow
 matplotlib
-numpy
+numpy==1.26.4
 keras==3.2.0
